@@ -1,4 +1,4 @@
-# Interactive Katacoda Scenarios sss
+# Interactive Katacoda Scenarios
 
 [![](http://shields.katacoda.com/katacoda/sulliwane/count.svg)](https://www.katacoda.com/sulliwane "Get your profile on Katacoda.com")
 
