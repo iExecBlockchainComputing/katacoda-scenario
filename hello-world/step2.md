@@ -22,7 +22,7 @@ As soon as your balance is positive, you can deploy you Dapp.
 
 This call truffle to migrate the dapp on a blockchain:
 
-`iexec migrate --network ropsten`{{execute}}
+`iexec migrate`{{execute}}
 
 This will use informations from the iexec and truffle config file to deploy the contract on ethereum: This is the iexec configuration file:
 
