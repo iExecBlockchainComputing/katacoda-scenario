@@ -25,10 +25,10 @@ This migrate the dapp on a blockchain:
 `iexec migrate`{{execute}}
 
 This will use informations from the iexec and truffle config file to deploy the contract on ethereum: This is the iexec configuration file:
-
+```
 // iexec.js
 module.exports = {
     name: 'Factorial',  // the name of the contract to be deployed
     constructorArgs: ['0xe6b658facf9621eff76a0d649c61dba4c8de85fb'],  // the constructor arguments for contract deployment logic
 };
-
+```
