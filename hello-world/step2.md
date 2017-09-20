@@ -1,4 +1,4 @@
-#Wallet 
+# Wallet 
 
 
 Before deploying and testing iexec, you need to get some ETH to pay for the gaz and the transaction fees. 
@@ -17,6 +17,24 @@ If you have not been able to get ETH, this might because of ropsten instability.
 case, join our slack, and we'll explain you how to proceed with a different test network.
 
 As soon as your balance is positive, you can deploy you Dapp.
+
+# Understanding the Dapp contract
+
+The contract Factorial.sol interfaces the offchain application.
+
+<pre class="file" data-filename="iexec-factorial/contracts/Factorial.sol" data-target="replace">
+pragma solidity ^0.4.11;
+import "./IexecOracleAPI.sol";
+contract Factorial is IexecOracleAPI{
+
+  function Factorial (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress){
+
+  }
+
+}
+</pre>
+
+
 
 # I deploy
 
