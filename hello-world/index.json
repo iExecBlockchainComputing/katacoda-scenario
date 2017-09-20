@@ -14,6 +14,12 @@
       "title": "Step 3 - Execute off-chain computation",
       "text": "step3.md"
     }]
+    ,"intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+	"text": "finish.md"
+    }
   },
   "environment": {
     "uilayout": "editor-terminal",
@@ -23,10 +29,5 @@
   },
   "backend": {
     "imageid": "node6"
-  },"intro": {
-      "text": "intro.md"
-  },
-    "finish": {
-	"text": "finish.md"
-    }
+  }
 }
