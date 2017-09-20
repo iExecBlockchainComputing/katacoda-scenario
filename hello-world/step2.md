@@ -20,7 +20,7 @@ As soon as your balance is positive, you can deploy you Dapp.
 
 # I deploy
 
-This call truffle to migrate the dapp on a blockchain:
+This migrate the dapp on a blockchain:
 
 `iexec migrate`{{execute}}
 
