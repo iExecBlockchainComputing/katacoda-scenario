@@ -17,8 +17,8 @@ Update 21/09/2017 - 16:38 pm UTC  : Please use kovan network for the katacoda tu
 
 
 Update 21/09/2017 - 17:00 pm UTC  : expected wait time because of transactions delay on networks :<br>
-Katacoda Hello World Scenario On Ropsten : 00:17:29.848 <br>
-Katacoda Hello World Scenario On Kovan   : 00:01:55.781 <br>
-Katacoda Hello World Scenario On Rinkeby : 00:03:30.914
+Katacoda Hello World Scenario On Ropsten : 00:17:29 min <br>
+Katacoda Hello World Scenario On Kovan   : 00:01:55 min <br>
+Katacoda Hello World Scenario On Rinkeby : 00:03:30 min
 
 
