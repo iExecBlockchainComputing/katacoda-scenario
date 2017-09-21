@@ -13,3 +13,5 @@ At the end of the tutorial, you will see how your smart contract can now interac
 
 Let's get started!
 
+Update 21/09/2017 - 16:38 pm UTC  : Please use kovan network for the katacoda tutorial. We investigate why result transactions are still pending on ropsten and rinkeby network.  Join our slack if you need help.
+
