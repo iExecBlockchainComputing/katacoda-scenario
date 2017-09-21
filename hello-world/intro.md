@@ -16,7 +16,8 @@ Let's get started!
 Update 21/09/2017 - 16:38 pm UTC  : Please use kovan network for the katacoda tutorial. Some transactions take 20 mins on ropsten and rinkeby network to be mined .  Join our slack if you need help.
 
 
-Update 21/09/2017 - 17:00 pm UTC  : expected wait time because of transactions delay on networks :<br>
+Update 21/09/2017 - 17:00 pm UTC  : transactions delay on ropsten and rinkeby networks. <br>
+Duration time to completed the full scenario : <br>
 Katacoda Hello World Scenario On Ropsten : 00:17:29 min <br>
 Katacoda Hello World Scenario On Kovan   : 00:01:55 min <br>
 Katacoda Hello World Scenario On Rinkeby : 00:03:30 min
