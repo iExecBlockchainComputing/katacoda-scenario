@@ -13,13 +13,14 @@ At the end of the tutorial, you will see how your smart contract can now interac
 
 Let's get started!
 
-Update 21/09/2017 - 16:38 pm UTC  : Please use kovan network for the katacoda tutorial. Some transactions take 20 mins on ropsten and rinkeby network to be mined .  Join our slack if you need help.
 
 
-Update 21/09/2017 - 17:00 pm UTC  : transactions delay on ropsten and rinkeby networks. <br>
-Duration time to complete the full scenario : <br>
-Katacoda Hello World Scenario On Ropsten : 00:17:29 min <br>
-Katacoda Hello World Scenario On Kovan   : 00:01:55 min <br>
-Katacoda Hello World Scenario On Rinkeby : 00:03:30 min
+[ INFO ] : Due to transactions delay on ethereum ropsten and rinkeby networks, you may have to wait few minutes between each steps of the scenario. The default network targeted by this tutorial is ropsten ( automatic faucet for ropsten). If you want to target  rinkeby or kovan networks or if you need help, join us on our slack.
+
+Expected duration to complete the full scenario : <br>
+Katacoda Hello World Scenario On Ropsten : 00:10:00 min to 00:30:00 min <br>
+Katacoda Hello World Scenario On Rinkeby : 00:05:00 min to 00:20:00 min <br>
+Katacoda Hello World Scenario On Kovan   : 00:02:00 min to 00:05:00 min
+
 
 
