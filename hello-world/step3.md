@@ -12,6 +12,9 @@ Be sure to replace `0x783236f...` by your txHash!
 
 It may take a moment for the computation to be completed. Repeat the last command until you can actually see the result.
 
+You can also go to the iexec explorer to see your transaction :
+https://explorer.iex.ec in the "last submissions" tab.
+
 Your smart contract is now "offchain computing ready!".
 
 Sky is the limit for you and your smart contract!
