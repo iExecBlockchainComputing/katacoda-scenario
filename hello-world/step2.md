@@ -1,34 +1,57 @@
-#Wallet 
+# Managing your Wallet 
 
 
-Before deploying and testing iexec, you need to get some ETH to pay for the gaz and the transaction fees. 
+Before deploying and testing iexec, you need to get some ETH to pay for the  transaction fees (gas). 
 
-First, we'll create a  wallet on the ropsten network
+First, we'll create a  wallet on the ropsten network:
+
 `iexec wallet create`{{execute}}
 
-Ropsten is a test network, where ETH has no value. Let's get some from a faucet
+Ropsten is a test network, where ETH has no value. Let's get some from a faucet:
 
 `iexec wallet getETH`{{execute}}
 
-You can check how many ETH you have on your wallet:
+You can now check how many ETH you have on your wallet:
+
 `iexec wallet show`{{execute}}
 
-If you have not been able to get ETH, this might because of ropsten instability. In this
-case, join our slack, and we'll explain you how to proceed with a different test network.
+If you have not been able to get ETH, this might be because of ropsten instability. In this
+case, join our slack and we'll explain how to proceed with a different test network.
 
-As soon as your balance is positive, you can deploy you Dapp.
+As soon as your balance is positive, you can deploy your Dapp.
+
+# Understanding the Dapp contract
+
+The contract Factorial.sol interfaces the offchain application with Ethereum. It extends the IexecOracleAPI smart contract.
+
+<pre class="file" data-filename="iexec-factorial/contracts/Factorial.sol" data-target="replace">
+pragma solidity ^0.4.11;
+import "./IexecOracleAPI.sol";
+contract Factorial is IexecOracleAPI{
+
+  function Factorial (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress){
+
+  }
+
+}
+</pre>
+
+
 
 # I deploy
 
-This call truffle to migrate the dapp on a blockchain:
+This migrates the Dapp on the blockchain:
 
 `iexec migrate`{{execute}}
 
-This will use informations from the iexec and truffle config file to deploy the contract on ethereum: This is the iexec configuration file:
+This will use information from the iexec and truffle config files to deploy the contract on Ethereum.
 
+This is the iexec configuration file:
+
+<pre class="file" data-filename="iexec-factorial/iexec.js" data-target="replace">
 // iexec.js
 module.exports = {
     name: 'Factorial',  // the name of the contract to be deployed
     constructorArgs: ['0xe6b658facf9621eff76a0d649c61dba4c8de85fb'],  // the constructor arguments for contract deployment logic
 };
-
+</pre>

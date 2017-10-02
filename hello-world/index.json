@@ -11,22 +11,23 @@
       "title": "Step 2 - Deploy your Dapp",
       "text": "step2.md"
     }, {
-      "title": "Step 3 - Execute off-chain computation",
+      "title": "Step 3 - Execute off-chain computations",
       "text": "step3.md"
     }]
+    ,"intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+	"text": "finish.md"
+    }
   },
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal to play with iExec",
     "hideintro": false,
-    "hidefinish": true
+    "hidefinish": false
   },
   "backend": {
     "imageid": "node6"
-  },"intro": {
-      "text": "intro.md"
-  },
-    "finish": {
-	"text": "finish.md"
-    }
+  }
 }
