@@ -46,6 +46,9 @@ This migrates the Dapp on the blockchain:
 
 This will use information from the iexec and truffle config files to deploy the contract on Ethereum.
 
+you can see your new deployed dapp in  :
+https://explorer.iex.ec in the "last dapp registrations" tab.
+
 This is the iexec configuration file:
 
 <pre class="file" data-filename="iexec-factorial/iexec.js" data-target="replace">
