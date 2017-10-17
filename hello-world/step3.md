@@ -11,7 +11,7 @@ Let's call the RLC Faucet with :
 if you prefer, you have a web RLC faucet interface :
 https://faucet.iex.ec/
 
-After the transaction is processed, you can check your new RLC balances :
+After the transaction is processed, after few seconds, you can check your 10 nRLC received with :
 
 `iexec wallet show`{{execute}}
 
