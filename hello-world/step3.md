@@ -18,7 +18,7 @@ After the transaction is processed, you can check your new RLC balances :
 Great. You account have RLC. Now you have to credit RLC for off-chain computation usage.
 To do this you will call a function on the RLC Token (ERC20 approve function).
 
-`iexec account setCredit 5`{{execute}}
+`iexec account allow 5`{{execute}}
 
 After the transaction is processed, you can verify your credit for off-chain computation with :
 
