@@ -22,4 +22,5 @@ Let's get started!
 Expected duration to complete the full scenario : <br>
 Katacoda Hello World Scenario On Ropsten : 00:10:00 min to 00:30:00 min <br>
 Katacoda Hello World Scenario On Rinkeby : 00:05:00 min to 00:20:00 min <br>
-Katacoda Hello World Scenario On Kovan   : 00:02:00 min to 00:05:00 min
+
+Scenario not active in Kovan network
