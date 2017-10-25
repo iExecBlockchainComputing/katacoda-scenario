@@ -57,7 +57,7 @@ This will use information from the iexec and truffle config files to deploy the 
 You can see your new deployed dapp in  :
 https://explorer.iex.ec in the "last dapp registrations" tab.
 
-# I deploy the app iexec network
+# I deploy the app in iexec network
 First login to iexec network with your ethereum address and obtain an access token  
 
 `iexec account login`{{execute}}
