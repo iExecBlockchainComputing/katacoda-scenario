@@ -31,12 +31,14 @@ If it is a free Dapp, he can set 0.
 
 <pre class="file" data-filename="iexec-factorial/contracts/Factorial.sol" data-target="replace">
 pragma solidity ^0.4.11;
-import "./IexecOracleAPI.sol";
+import "iexec-oracle-contract/contracts/IexecOracleAPI.sol";
 contract Factorial is IexecOracleAPI{
 
-  uint public constant DAPP_PRICE = 1;
 
-  function Factorial (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress,DAPP_PRICE){
+  uint public constant DAPP_PRICE = 1;
+  string public constant DAPP_NAME = "factorial";
+
+  function Factorial (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress,DAPP_PRICE,DAPP_NAME){
 
   }
 
