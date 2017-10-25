@@ -58,7 +58,7 @@ You can see your new deployed dapp in  :
 https://explorer.iex.ec in the "last dapp registrations" tab.
 
 # I deploy the app iexec network
-First login to iexec network with my ethereum address and obtain an access token  
+First login to iexec network with your ethereum address and obtain an access token  
 
 `iexec account login`{{execute}}
 
@@ -66,7 +66,7 @@ Expected result:
 
 `✔ You are logged into iExec`
 
-Then you can send the factorial binary located in apps directory.
+Then, you can send the factorial binary located in apps directory.
 
 `iexec apps send factorial`{{execute}}
 
@@ -74,11 +74,11 @@ Then you can send the factorial binary located in apps directory.
 Expected result:
 
 `
-✔ App successfully sent for ropsten dapp: dapp address
+✔ App successfully sent for ropsten dapp: "your dapp address"
 `
 
-As a dapp provider your work is finished :
-Your app is registered on iexec network and link to your ethereum dapp address. 
-This app (binary) will be run by workers thanks to transactions send to your smart contract.
-We will see that on the next page of this tutorial
+As a Dapp Provider your work is finished :
+Your App is registered on iexec network and link to your ethereum Dapp address. 
+This App (binary) will be run by workers thanks to transactions sent to your Dapp (smart contract).
+We will see that on the next page of this tutorial.
  
