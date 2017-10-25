@@ -27,7 +27,7 @@ After the transaction is processed, you can verify your credit for off-chain com
 # I exec
 You now ready to go, submit your first calculation with :
 
-`iexec submit factorial 20`{{execute}}
+`iexec submit 20`{{execute}}
 
 
 
