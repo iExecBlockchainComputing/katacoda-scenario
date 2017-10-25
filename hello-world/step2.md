@@ -44,7 +44,7 @@ contract Factorial is IexecOracleAPI{
 
 }
 </pre>
-|
+
 
 # I deploy the dapp smart contract in ethereum
 
