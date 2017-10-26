@@ -66,6 +66,12 @@ With the deploy command you will :
 `iexec deploy`{{execute}}
 
 
+To the following question:
+`? You are not logged in yet, log in?`
+
+Answer `Y`{{execute}} 
+
+
 You can see your new deployed dapp in  :
 https://explorer.iex.ec in the "last dapp registrations" tab.
 
