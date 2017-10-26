@@ -68,7 +68,7 @@ You can test it before deploying it on iexec network.
 `./apps/factorial 15`{{execute}}
 
 
-# Deploy the executable app in iexec network
+# Deploy the factorial app in iexec network
 First login to iexec network with your ethereum address and obtain an access token  
 
 `iexec account login`{{execute}}
