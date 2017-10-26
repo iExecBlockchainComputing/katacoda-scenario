@@ -46,7 +46,7 @@ contract Factorial is IexecOracleAPI{
 </pre>
 
 
-# Deploy the dapp smart contract in ethereum
+# Deploy your dapp smart contract in ethereum
 
 This migrates the Dapp on the blockchain:
 
@@ -68,7 +68,7 @@ You can test it before deploying it on iexec network.
 `./apps/factorial 15`{{execute}}
 
 
-# Deploy the factorial app in iexec network
+# Deploy your factorial app in iexec network
 First login to iexec network with your ethereum address and obtain an access token  
 
 `iexec account login`{{execute}}
