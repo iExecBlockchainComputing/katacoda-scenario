@@ -40,7 +40,7 @@ In this tutorial, you will learn how to install and use the iexec Software Devel
 You will create your first smart contract that does a very simple off-chain computation: compute the factorial function of an integer.
 
 First, you will take the rôle of a Dapp Provider by deploying a smart contract on the Ethereum blockchain. You will learn the basic of the IexecOracleAPI that your contract must inherit.
-If desired, the dapp Provider can set a RLC price for the usage of his dapp.
+If desired, the dapp Provider can set a RLC price for the usage of his Dapp.
 
 Then, you will take the rôle of a Dapp User and see how the smart contract can now interact with iexec oracle to launch off-chain computations on the decentralized Cloud.
 The dapp user will have to use his RLC token for this.
