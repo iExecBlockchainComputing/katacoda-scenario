@@ -46,7 +46,7 @@ contract Factorial is IexecOracleAPI{
 </pre>
 
 
-# Deploy your dapp smart contract in ethereum
+# Deploy your Dapp smart contract in ethereum
 
 This migrates the Dapp on the blockchain:
 
