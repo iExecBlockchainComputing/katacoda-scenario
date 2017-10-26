@@ -46,18 +46,6 @@ contract Factorial is IexecOracleAPI{
 </pre>
 
 
-# Deploy your Dapp smart contract in ethereum
-
-This migrates the Dapp on the blockchain:
-
-`iexec migrate`{{execute}}
-
-This will use information from the iexec and truffle config files to deploy the contract on Ethereum.
-
-You can see your new deployed dapp in  :
-https://explorer.iex.ec in the "last dapp registrations" tab.
-
-
 # Test your factorial app
 In the apps directory you can find the source code of a simple factorial in python : apps/factorial.py
 
@@ -68,26 +56,20 @@ You can test it before deploying it on iexec network.
 `./apps/factorial 15`{{execute}}
 
 
-# Deploy your factorial app in iexec network
-First login to iexec network with your ethereum address and obtain an access token  
+# Deploy your Dapp smart contract in ethereum and your factorial app in iexec network
 
-`iexec account login`{{execute}}
+With the deploy command you will :
+- Deploy the Dapp smart contract into Ethereum.
+- Login to iexec network thanks to your ethereum addresss and obtain an access token.
+- Deploy the factorial binary app in iexec network thanks to your access token.
 
-Expected result:
-
-`✔ You are logged into iExec`
-
-Then, you can send the factorial binary located in apps directory.
-
-`iexec apps send factorial`{{execute}}
+`iexec deploy`{{execute}}
 
 
-Expected result:
+You can see your new deployed dapp in  :
+https://explorer.iex.ec in the "last dapp registrations" tab.
 
 `
-✔ App successfully sent for ropsten dapp: "your dapp address"
-`
-
 As a Dapp Provider your work is finished :
 Your App is registered on iexec network and link to your ethereum Dapp address. 
 This App (binary) will be run by workers thanks to transactions sent to your Dapp (smart contract).
