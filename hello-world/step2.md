@@ -46,7 +46,7 @@ contract Factorial is IexecOracleAPI{
 </pre>
 
 
-# Test your factorial app
+# Test your factorial App
 In the apps directory you can find the source code of a simple factorial in python : apps/factorial.py
 
 With the command : pyinstaller --onefile factorial.py, we have generated : apps/factorial.
