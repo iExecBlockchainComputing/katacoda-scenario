@@ -32,8 +32,8 @@ Your iexec Dapp is composed at the minimum of two parts:
 * a smart contract that interfaces your iExec Dapp from Ethereum to the offchain app.
 
 
-Factorial off-chain app is already installed and deployed in the iExec network.
-You will learn to do that in another tutorial soon.
+You will deploy those 2 parts in this tutorial, the Factorial off-chain app in the iExec network and the dapp smart contract in ethereum testnet.
+
 
 Go into the created directory:
 
