@@ -69,7 +69,7 @@ With the deploy command you will :
 You can see your new deployed dapp in  :
 https://explorer.iex.ec in the "last dapp registrations" tab.
 
-`
+
 As a Dapp Provider your work is finished :
 Your App is registered on iexec network and link to your ethereum Dapp address. 
 This App (binary) will be run by workers thanks to transactions sent to your Dapp (smart contract).
