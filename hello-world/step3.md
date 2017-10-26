@@ -11,7 +11,8 @@ Let's call the RLC Faucet with :
 if you prefer, you have a web RLC faucet interface :
 https://faucet.iex.ec/
 
-After the transaction is processed, after few seconds, you can check your 10 nRLC received with :
+You have to wait some time to receive your RLC from the Iexec Faucet.
+After the transaction is processed, you can check your 10 nRLC received with :
 
 `iexec wallet show`{{execute}}
 
@@ -19,6 +20,7 @@ Great. You account have RLC. Now you have to credit RLC for off-chain computatio
 To do this you will call a function on the RLC Token (ERC20 approve function).
 
 `iexec account allow 5`{{execute}}
+
 
 After the transaction is processed, you can verify your credit for off-chain computation with :
 
