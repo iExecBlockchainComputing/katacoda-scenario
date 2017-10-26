@@ -53,7 +53,7 @@ With the command : pyinstaller --onefile factorial.py, we have generated : apps/
 
 You can test it before deploying it on iexec network.
 
-`./apps/factorial 15`{{execute}}
+`./apps/Factorial 15`{{execute}}
 
 
 # Deploy your Dapp
