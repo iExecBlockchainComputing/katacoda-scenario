@@ -56,7 +56,7 @@ You can test it before deploying it on iexec network.
 `./apps/factorial 15`{{execute}}
 
 
-# Deploy your Dapp smart contract in ethereum and your factorial app in iexec network
+# Deploy your Dapp
 
 With the deploy command you will :
 - Deploy the Dapp smart contract into Ethereum.
