@@ -60,8 +60,10 @@ https://explorer.iex.ec in the "last dapp registrations" tab.
 
 # Test your factorial app
 In the apps directory you can find the source code of a simple factorial in python : apps/factorial.py
+
 With the command : pyinstaller --onefile factorial.py, we have generated : apps/factorial.
-you can test it before deploying it on iexec network.
+
+You can test it before deploying it on iexec network.
 
 `./apps/factorial 15`{{execute}}
 
