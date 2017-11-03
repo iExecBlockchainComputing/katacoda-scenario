@@ -1,37 +1,5 @@
 
-# UPDATE IN PROGRESS WITH NEW FEATURES. 
-
-# PLEASE COME BACK LATER. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Install and run your first Dapp with iexec
+ # Iexec V1 Tutorial : Install and run your first Dapp with iexec
 
 Iexec allows Ethereum developers to create applications that can be executed off-chain. This package brings all the tools to develop, deploy and execute Dapps on Ethereum and iexec. Using these tools, you will be able to deploy any legacy applications in the iexec infrastructure and execute them through calls to Ethereum smart contracts.
 
