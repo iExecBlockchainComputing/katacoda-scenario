@@ -8,6 +8,7 @@ Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on y
 
 # Prepare your ffmpeg project
 
+## scaffold template
 
  For this tutorial, we'll first scaffold the iexec dapp project template
  with the following command :
@@ -36,7 +37,7 @@ Go into the created directory:
 `cd iexec-ffmpeg`{{execute}}
 
 
-# Name your project
+## Name your project
 
 
 In iexec.js, The field name must be the same for  :
@@ -49,7 +50,7 @@ Rename MyContract to Ffmpeg in iexec.js :
 `sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}
   
 
-# Name your smart contract dapp
+## Name your smart contract dapp
 
 Rename the contract file MyContract.sol to Ffmpeg.sol
   
