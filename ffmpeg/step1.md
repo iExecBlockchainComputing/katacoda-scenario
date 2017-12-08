@@ -4,7 +4,8 @@
 
 Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on your machine.
 
-`npm -g install iexec`{{execute}}
+`npm -g install iexec node-uncompress`{{execute}}
+
 
 
 # scaffolded and prepare your ffmpeg project
@@ -73,8 +74,13 @@ Find a static build version of ffmpeg. For instance here :
   `cd apps`{{execute}}
   
   
-  `curl -OL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz && chmod +x ffmpeg-release-64bit-static.tar.xz && tar xvfJ ffmpeg-release-64bit-static.tar.xz `{{execute}}
+  `curl -o ffmpeg-release-64bit-static.tar -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz`{{execute}}
   
+  
+  
+  `uncomp ffmpeg-release-64bit-static.tar`{{execute}}
+    
+
 
   `cp -f ffmpeg-3.4-64bit-static/ffmpeg ./Ffmpeg`{{execute}}
   
