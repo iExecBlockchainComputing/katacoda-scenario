@@ -7,7 +7,7 @@ We take the static build version of ffmpeg here https://johnvansickle.com/ffmpeg
 
 The uncompress version is on the ffmpeg branch of iexec-dapp-samples.
 
-We will download it on the apps directory of our new iexec-ffmpeg project :
+We will download it on the apps directory :
   
 `cd apps`{{execute}}
 
@@ -16,7 +16,7 @@ We will download it on the apps directory of our new iexec-ffmpeg project :
   
 # Test your ffmpeg before deployment
 
-First download a sample movie to encode :
+First download a movie sample to encode :
 
 
  `curl -OL http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
@@ -26,7 +26,7 @@ Then test locally your Ffmpeg binary with the following command  :
 
  `./Ffmpeg -i small.mp4 small.avi`{{execute}}
  
-Your new small.avi must be present in apps directory.
+Your result small.avi must be present in apps directory.
 
 Go back to the main directory for the next step:
 
