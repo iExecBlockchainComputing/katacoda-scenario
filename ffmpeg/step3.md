@@ -66,7 +66,7 @@ You must see your new encoded video small.avi result !:
   inflating: small.avi
 `
 
-The result retrieved is a zip coming from this worker. 
+The result retrieved is a zip coming from the worker. 
 
 The zip contain all files created or modified by the execution on the worker.
 
