@@ -1,11 +1,13 @@
 
-For the example, we take the ffmpeg tool to illustrate that you can use existing application or build new one and monitized it with RLC thanks to iExec netxork
+For the example, we take the ffmpeg tool to illustrate that you can use existing application or build new one and monitized it thanks to the RLC Token and iExec netxork
 
 # Prepare your ffmpeg binary app
 
 We take the static build version of ffmpeg here https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz.
 
-The uncompress version has been pushed on the ffmpeg branch of iexec-dapp-samples.
+The uncompress version is on the ffmpeg branch of iexec-dapp-samples.
+
+We will download it on the apps directory of our new iexec-ffmpeg project :
   
 `cd apps`{{execute}}
 
@@ -14,16 +16,17 @@ The uncompress version has been pushed on the ffmpeg branch of iexec-dapp-sample
   
 # Test your ffmpeg before deployment
 
-First download a sample movie 
+First download a sample movie to encode :
 
 
  `curl -OL http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
 
 
-Test your Ffmpeg with the following command locally :
+Then test locally your Ffmpeg binary with the following command  :
 
  `./Ffmpeg -i small.mp4 small.avi`{{execute}}
  
+Your new small.avi must be present in apps directory.
 
 Go back to the main directory for the next step:
 

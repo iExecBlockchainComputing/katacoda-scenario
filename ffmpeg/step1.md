@@ -6,7 +6,7 @@ Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on y
 `npm -g install iexec`{{execute}}
 
 
-# scaffold iExec Dapp template 
+# Scaffold iExec Dapp template 
 
  For this tutorial, we'll first scaffold the iexec dapp project template
  with the following command :
@@ -28,7 +28,9 @@ You will deploy those 2 parts in this tutorial, the ffmepg off-chain app in the 
 
 ## Name your ffmpeg project
 
-A new directory iexec-init have been created. Let's rename it :
+A new directory iexec-init have been created. 
+
+Let's rename it :
 
 `mv iexec-init iexec-ffmpeg`{{execute}}
 
@@ -42,6 +44,7 @@ In iexec.js, The field name must be the same for  :
   - the name of your binary in apps 'Ffmpeg'.
   
 We choose the following name : Ffmpeg.
+
 Rename MyContract to Ffmpeg in iexec.js :
   
 `sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}

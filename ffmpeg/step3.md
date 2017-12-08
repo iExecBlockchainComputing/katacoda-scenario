@@ -1,7 +1,4 @@
 
-
-# Deploy your smart contract and Ffmpeg binary in iexec network
-
 Make sure you have enought ether to deploy it. See our first hello world tutorial for more details.
 
 `iexec wallet create`{{execute}}
@@ -13,6 +10,9 @@ Make sure you have enought ether to deploy it. See our first hello world tutoria
 `iexec wallet show`{{execute}}
 
 When you have some ether. You are ready to deploy it.
+
+
+# Deploy your smart contract and Ffmpeg binary in iExec network
 
 With the deploy command you will :
 - Deploy the Dapp smart contract into Ethereum.
@@ -28,11 +28,11 @@ To the following question:
 Answer `Y`{{execute}} 
 
 
-# Ask for ffmpeg encoding thanks to your new deployed dapp :
+# Submit a task to encode your film on the iExec Decentralize cloud ! :
 
 `iexec submit "{ \"cmdline\": \"-i demos/sample-videos/small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
 
-# Get your ffmpeg result 
+# Get your ffmpeg task result 
 
 Use the txHash from the submit to check the result of your submit with:
 

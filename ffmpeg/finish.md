@@ -1,7 +1,7 @@
 Your tutorial is now finished.
 
 
-Bonus : Monitized your new dapp.
+# Bonus : Monitized your new dapp !
 
 You can find the result of this tutorial in the ffmpeg branch of iexec-dapp-samples :
 
