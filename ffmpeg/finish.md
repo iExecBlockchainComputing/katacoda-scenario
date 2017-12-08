@@ -1,1 +1,10 @@
 Your tutorial is now finished.
+
+
+Bonus : Monitized your new dapp.
+
+You can find the result of this tutorial in the ffmpeg branch of iexec-dapp-samples :
+
+https://github.com/iExecBlockchainComputing/iexec-dapp-samples/tree/ffmpeg
+
+Can be directly use with iexec init ffmpeg

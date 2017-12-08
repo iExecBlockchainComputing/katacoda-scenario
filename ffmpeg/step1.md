@@ -36,7 +36,7 @@ Go into the created directory:
 `cd iexec-ffmpeg`{{execute}}
 
 
-# Named your project
+# Name your project
 
 
 In iexec.js, The field name must be the same for  :
@@ -92,6 +92,11 @@ First download a sample movie
 To your Ffmpeg command locally :
 
  `./Ffmpeg -i small.mp4 small.avi`{{execute}}
+ 
+
+Go back to the main directory:
+
+ `cd ..`{{execute}}
 
 
 # Deploy your smart contract and Ffmpeg binary in iexec network
@@ -132,5 +137,24 @@ Use the txHash from the submit to check the result of your submit with:
 
 `iexec result 0x783236f489c1e4bcdfbac87475b71cd13e83266ba6d55cfb658324f281580528`{{execute}}
 
+When you see that your task is completed and the result uri :
+
+`
+resuri:   "xw://xw.iex.ec/1f038f8a-6b2d-4f5d-a184-30402c44c437"
+`
+
+Download the result with --save option :
+
+`iexec result 0x783236f489c1e4bcdfbac87475b71cd13e83266ba6d55cfb658324f281580528 --save`{{execute}}
+
+Unzip the result :
+
+`unzip 0x*`{{execute}}
+
+You must see your new encoded video small.avi result !:
+`
+  inflating: stderr.txt
+  inflating: small.avi
+`
 
 
