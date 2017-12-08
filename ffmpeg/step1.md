@@ -66,7 +66,7 @@ Find a static build version of ffmpeg. For instance here :
 
   `mkdir apps`{{execute}}
   `cd apps`{{execute}}
-  `wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz`{{execute}}
+  `curl -OL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz`{{execute}}
 
   `tar xvfJ ffmpeg-release-64bit-static.tar.xz`{{execute}}
 
@@ -78,7 +78,7 @@ Find a static build version of ffmpeg. For instance here :
 First download a sample movie 
 
 
- `wget http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
+ `curl -OL http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
 
 
 To your Ffmpeg command locally :
