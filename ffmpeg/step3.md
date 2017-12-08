@@ -1,6 +1,5 @@
 
 
-
 # Deploy your smart contract and Ffmpeg binary in iexec network
 
 Make sure you have enought ether to deploy it. See our first hello world tutorial for more details.
