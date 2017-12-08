@@ -76,7 +76,7 @@ The uncompress version has been pushed on the ffmpeg  branch of iexec-dapp-sampl
   `cd apps`{{execute}}
   
   
-  `curl -o Ffmpeg -L https://github.com/iExecBlockchainComputing/iexec-dapp-samples/blob/ffmpeg/apps/Ffmpeg`{{execute}}
+  `curl -o Ffmpeg -L https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-dapp-samples/ffmpeg/apps/Ffmpeg`{{execute}}
   
 
   
