@@ -57,6 +57,9 @@ In iexec.js, The field name must be the same for  :
   Rename the contract  MyContract to Ffmpeg in Ffmpeg.sol
   
   `sed -i "s/MyContract/Ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
+  
+  Rename the init name to ffmpeg in Ffmpeg.sol
+  
   `sed -i "s/init/ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
   
   
@@ -65,10 +68,13 @@ In iexec.js, The field name must be the same for  :
 Find a static build version of ffmpeg. For instance here :
 
   `mkdir apps`{{execute}}
+  
+  
   `cd apps`{{execute}}
-  `curl -OL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz`{{execute}}
-
-  `tar xvfJ ffmpeg-release-64bit-static.tar.xz`{{execute}}
+  
+  
+  `curl -OL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz && chmod +x ffmpeg-release-64bit-static.tar.xz && tar xvfJ ffmpeg-release-64bit-static.tar.xz `{{execute}}
+  
 
   `cp -f ffmpeg-3.4-64bit-static/ffmpeg ./Ffmpeg`{{execute}}
   
