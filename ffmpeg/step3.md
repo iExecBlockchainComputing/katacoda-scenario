@@ -11,9 +11,6 @@ Make sure you have enought ether to deploy it. See our first hello world tutoria
 
 When you have some ether. You are ready to deploy it.
 
-
-# Deploy in iExec network
-
 With the deploy command you will :
 - Deploy the Dapp smart contract into Ethereum.
 - Login to iexec network thanks to your ethereum addresss and obtain an access token.
