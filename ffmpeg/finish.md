@@ -10,10 +10,7 @@ You can find the result of this tutorial in the ffmpeg branch of iexec-dapp-samp
 
 First, see how to use the RLC Token on our first tutorial : https://www.katacoda.com/sulliwane/scenarios/hello-world 
 
-
-Tips :
-
-sed -i "s/DAPP_PRICE = 0;/DAPP_PRICE = 1000000;/g" contracts/Ffmpeg.sol
+Tips : check the DAPP_PRICE variable in contracts/Ffmpeg.sol
 
 And redeploy your new monitized dapp and earn RLC Token !
 
