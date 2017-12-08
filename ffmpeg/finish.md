@@ -1,4 +1,7 @@
-Your tutorial is now finished.
+# Congratulation ! Your tutorial is now finished.
+
+
+The ffmpeg exection has been performed remotely in a worker ! ( just wait to iExec V2 to become a worker !)
 
 
 # Bonus : Monitized your new dapp !
