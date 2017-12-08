@@ -1,0 +1,27 @@
+{
+  "title": "Ffmpeg on iExec",
+  "description": "Ffmpeg on iExec",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Install iexec",
+      "text": "step1.md"
+    }]
+    ,"intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+	"text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal to play with iExec",
+    "hideintro": false,
+    "hidefinish": false
+  },
+  "backend": {
+    "imageid": "node6"
+  }
+}
