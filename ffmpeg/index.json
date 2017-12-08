@@ -5,9 +5,18 @@
   "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install iexec",
+      "title": "Initialized your project",
       "text": "step1.md"
-    }]
+    },
+    {
+      "title": "Create your dapp",
+      "text": "step2.md"
+    },
+    {
+      "title": "Deploy your dapp",
+      "text": "step3.md"
+    }
+    ]
     ,"intro": {
       "text": "intro.md"
     },
