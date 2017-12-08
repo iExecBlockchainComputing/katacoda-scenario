@@ -1,5 +1,5 @@
 
- # iExec : Run your custom application on iexec. An exemple of ffmpeg
+ # Create and run your custom application on iExec. A Ffmpeg walkthrough as example
  
  Please discover the iexec-sdk basics in this first scenario first :
  https://www.katacoda.com/sulliwane/scenarios/hello-world

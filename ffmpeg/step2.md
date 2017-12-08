@@ -1,3 +1,6 @@
+
+For the example, we take the ffmpeg tool to illustrate that you can use existing application or build new one and monitized it with RLC thanks to iExec netxork
+
 # Prepare your ffmpeg binary app
 
 We take the static build version of ffmpeg here https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz.
