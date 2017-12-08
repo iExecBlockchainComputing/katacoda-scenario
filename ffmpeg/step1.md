@@ -6,24 +6,15 @@ Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on y
 
 `npm -g install iexec`{{execute}}
 
-Check iexec help:
 
-`iexec --help`{{execute}}
-
-Check iexec version:
-
-`iexec --version`{{execute}}
+# scaffolded and prepare your ffmpeg project
 
 
-
-# Install and run your first application with iexec
-
-
- For this tutorial, we'll work with the factorial function.
+ For this tutorial, we'll first scaffold the iexec dapp project template
  Factorial is compute-intensive and thus  better executed off-chain.
  The following command initializes a basic iexec Dapp template for you.
 
-`iexec init factorial`{{execute}}
+`iexec init`{{execute}}
 
 
 Your iexec Dapp is composed at the minimum of two parts:
@@ -32,9 +23,41 @@ Your iexec Dapp is composed at the minimum of two parts:
 * a smart contract that interfaces your iExec Dapp from Ethereum to the offchain app.
 
 
-You will deploy those 2 parts in this tutorial, the Factorial off-chain app in the iExec network and the dapp smart contract in ethereum testnet.
+You will deploy those 2 parts in this tutorial, the ffmepg off-chain app in the iExec network and the dapp smart contract in ethereum testnet.
 
+
+A new directory iexec-init have been created. Let's rename it for our need :
+
+`mv iexec-init iexec-ffmpeg`{{execute}}
 
 Go into the created directory:
 
-`cd iexec-factorial`{{execute}}
+`cd iexec-ffmpeg`{{execute}}
+
+
+# Named your project
+
+
+In iexec.js, The field name must be the same for  :
+  - the name of your dapp smart contract in the contract directory.
+  - the name of your binary in apps 'Ffmpeg'
+  
+  We choose the following name : Ffmpeg. Rename MyContract to Ffmpeg in iexec.js :
+  
+  `sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}
+  
+
+# Renamed your smart contract
+
+  Rename the contract file MyContract.sol to Ffmpeg.sol
+  
+  `mv contracts/MyContract.sol  contracts/Ffmpeg.sol`{{execute}}
+  
+  
+  Rename the contract  MyContract to Ffmpeg in Ffmpeg.sol
+  
+  `sed -i "s/MyContract/Ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
+  `sed -i "s/init/ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
+  
+  
+# Prepare your binary
