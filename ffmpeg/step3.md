@@ -32,10 +32,13 @@ Answer `Y`{{execute}}
 
 
 The submit the task by sending transaction to the dapp smart contract.
+
 You can parameter your task in a json format.
+
 Those parameters will be useful for the worker to complete the task.
 
 cmdline : the same ffmpeg command args as your previous local test.
+
 dirinuri : the input needed. The worker will download it before the execution.
 
 `iexec submit "{ \"cmdline\": \"-i demos/sample-videos/small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
