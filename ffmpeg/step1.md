@@ -4,7 +4,7 @@
 
 Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on your machine.
 
-`npm -g install iexec node-uncompress`{{execute}}
+`npm -g install iexec`{{execute}}
 
 
 
@@ -66,7 +66,9 @@ In iexec.js, The field name must be the same for  :
   
 # Prepare your binary
 
-Find a static build version of ffmpeg. For instance here :
+We take the static build version of ffmpeg find here https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz.
+
+The uncompress version has been pushed on the ffmpeg  branch of iexec-dapp-samples.
 
   `mkdir apps`{{execute}}
   
@@ -74,15 +76,9 @@ Find a static build version of ffmpeg. For instance here :
   `cd apps`{{execute}}
   
   
-  `curl -o ffmpeg-release-64bit-static.tar -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz`{{execute}}
+  `curl -o Ffmpeg -L https://github.com/iExecBlockchainComputing/iexec-dapp-samples/blob/ffmpeg/apps/Ffmpeg`{{execute}}
   
-  
-  
-  `uncomp ffmpeg-release-64bit-static.tar`{{execute}}
-    
 
-
-  `cp -f ffmpeg-3.4-64bit-static/ffmpeg ./Ffmpeg`{{execute}}
   
   
 # Test your binary before deployment
