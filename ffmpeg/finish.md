@@ -13,7 +13,7 @@ First, see how to use the RLC Token on our first tutorial : https://www.katacoda
 
 Tips :
 
-`sed -i "s/DAPP_PRICE = 0;/DAPP_PRICE = 1000000;/g" contracts/Ffmpeg.sol`{{execute}}
+`sed -i "s/DAPP_PRICE = 0;/DAPP_PRICE = 1000000;/g" contracts/Ffmpeg.sol`
 
 And redeploy your new monitized dapp  with the RLC Token
 
