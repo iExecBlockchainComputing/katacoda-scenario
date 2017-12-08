@@ -6,9 +6,7 @@ Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on y
 `npm -g install iexec`{{execute}}
 
 
-# Prepare your ffmpeg project
-
-## scaffold template
+# scaffold iExec Dapp template 
 
  For this tutorial, we'll first scaffold the iexec dapp project template
  with the following command :
@@ -28,6 +26,8 @@ a smart contract that interfaces your iExec Dapp from Ethereum to the offchain a
 You will deploy those 2 parts in this tutorial, the ffmepg off-chain app in the iExec network and the dapp smart contract in ethereum testnet.
 
 
+## Name your ffmpeg project
+
 A new directory iexec-init have been created. Let's rename it :
 
 `mv iexec-init iexec-ffmpeg`{{execute}}
@@ -35,9 +35,6 @@ A new directory iexec-init have been created. Let's rename it :
 Go into the created directory:
 
 `cd iexec-ffmpeg`{{execute}}
-
-
-## Name your project
 
 
 In iexec.js, The field name must be the same for  :
@@ -49,9 +46,7 @@ Rename MyContract to Ffmpeg in iexec.js :
   
 `sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}
   
-
-## Name your smart contract dapp
-
+  
 Rename the contract file MyContract.sol to Ffmpeg.sol
   
 `mv contracts/MyContract.sol  contracts/Ffmpeg.sol`{{execute}}
