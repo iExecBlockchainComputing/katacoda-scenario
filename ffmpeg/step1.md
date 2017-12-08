@@ -116,8 +116,6 @@ Answer `Y`{{execute}}
 
 # Ask for ffmpeg encoding thanks to your new deployed dapp :
 
-`iexec submit {“dirinuri”:“http://techslides.com/demos/sample-videos/small.mp4“,“cmdline”:”small.mp4 small.avi”}`{{execute}}
-
 `iexec submit "{ \"cmdline\": \"-i demos/sample-videos/small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
 
 # Get your ffmpeg result 
