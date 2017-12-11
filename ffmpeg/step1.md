@@ -6,46 +6,45 @@ Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on y
 `npm -g install iexec`{{execute}}
 
 
-# Scaffold iExec Dapp template 
+# Scaffold the iExec dapp template 
 
- For this tutorial, we'll first scaffold the iexec dapp project template
- with the following command :
+ For this tutorial, we'll first scaffold the iExec dapp project template with the following command:
 
 `iexec init`{{execute}}
 
 
-Your iexec Dapp is composed of :
+Your iExec dapp is composed of:
 
-* under apps directory :
-the offchain app, which can be any kind of legacy application or created by you. The offchain app will be executed by the iexec decentralized cloud.
+* an under app directory:
+the off-chain app, which can be any kind of legacy application, either created by you or by someone else. The offchain app will be executed by the iExec decentralized cloud.
 
-* under contracts directory :
-a smart contract that interfaces your iExec Dapp from Ethereum to the offchain app.
+* an under contracts directory:
+a smart contract that interfaces with your iExec dapp from Ethereum to the offchain app.
 
 
-You will deploy those 2 parts in this tutorial, the ffmepg off-chain app in the iExec network and the dapp smart contract in ethereum testnet.
+You will deploy those 2 parts in this tutorial: the ffmepg off-chain app in the iExec network, and the dapp smart contract on the Ethereum testnet.
 
 
 ## Name your ffmpeg project
 
-A new directory iexec-init have been created. 
+A new directory iexec-init has been created. 
 
-Let's rename it :
+Let's rename it:
 
 `mv iexec-init iexec-ffmpeg`{{execute}}
 
-Go into the created directory:
+Now go into the created directory:
 
 `cd iexec-ffmpeg`{{execute}}
 
 
-In iexec.js, The field name must be the same for  :
-  - the name of your dapp smart contract in the contract directory.
-  - the name of your binary in apps 'Ffmpeg'.
+In iexec.js, the field name must be the same for :
+  - the name of your dapp smart contract in the contract directory
+  - the name of your binary in apps 'Ffmpeg'
   
-We choose the following name : Ffmpeg.
+Let's choose the following name: Ffmpeg.
 
-Rename MyContract to Ffmpeg in iexec.js :
+Rename MyContract to Ffmpeg in iexec.js:
   
 `sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}
   
