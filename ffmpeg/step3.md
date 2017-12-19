@@ -38,7 +38,7 @@ The parameters will be useful for the worker to succesfully complete the task.
 
 - dirinuri: input file(s) needed. The worker will download it(them) before the execution.
 
-`iexec submit "{ \"cmdline\": \"-i demos/sample-videos/small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
+`iexec submit "{ \"cmdline\": \"-i small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
 
 # Get your ffmpeg task result 
 
