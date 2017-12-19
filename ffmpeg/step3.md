@@ -38,7 +38,17 @@ The parameters will be useful for the worker to succesfully complete the task.
 
 - dirinuri: input file(s) needed. The worker will download it(them) before the execution.
 
-`iexec submit "{ \"cmdline\": \"-i small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`{{execute}}
+You can pass thoses parameters next to the command line like this :
+
+`iexec submit "{ \"cmdline\": \"-i small.mp4 small.avi\", \"dirinuri\": \"http://techslides.com/demos/sample-videos/small.mp4\" }"`
+
+But you can also, put them in iexec.js in the work section :
+
+`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4' /g" iexec.js`{{execute}}
+
+Now just call iexec submit, it will submit you work with args present in iexec.js :
+`iexec submit`{{execute}}
+
 
 # Get your ffmpeg task result 
 
