@@ -44,7 +44,7 @@ You can pass thoses parameters next to the command line like this :
 
 But you can also, put them in iexec.js in the work section :
 
-`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4', /g" iexec.js`{{execute}}
+`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:'http://techslides.com/demos/sample-videos/small.mp4',/g" iexec.js`{{execute}}
 
 You iexec.js should now likes like this :
 
@@ -57,7 +57,7 @@ module.exports = {
     os: 'LINUX',
   },
   work: {
-    cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4',
+    cmdline:'-i small.mp4 small.avi', dirinuri:'http://techslides.com/demos/sample-videos/small.mp4',
   }
 };
 </pre>
