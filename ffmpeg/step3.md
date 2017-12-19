@@ -44,9 +44,27 @@ You can pass thoses parameters next to the command line like this :
 
 But you can also, put them in iexec.js in the work section :
 
-`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4' /g" iexec.js`{{execute}}
+`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4', /g" iexec.js`{{execute}}
+
+You iexec.js should now likes like this :
+
+<pre class="file" data-filename="iexec-factorial/iexec.js" data-target="replace">
+module.exports = {
+  name: 'Ffmpeg',
+  data: {
+    type: 'BINARY',
+    cpu: 'AMD64',
+    os: 'LINUX',
+  },
+  work: {
+    cmdline:'-i small.mp4 small.avi', dirinuri:http://techslides.com/demos/sample-videos/small.mp4',
+  }
+};
+</pre>
+
 
 Now just call iexec submit, it will submit you work with args present in iexec.js :
+
 `iexec submit`{{execute}}
 
 
