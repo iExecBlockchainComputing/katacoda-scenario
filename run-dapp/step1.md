@@ -1,4 +1,5 @@
-Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on your machine.
+# Pre-requisites
+You need to have [node.js](https://nodejs.org/en/) installed on your machine.
 
 `npm -g install iexec`{{execute}}
 
@@ -9,8 +10,6 @@ Check iexec help:
 Check iexec version:
 
 `iexec --version`{{execute}}
-
-
 
 # Init a basic project
 

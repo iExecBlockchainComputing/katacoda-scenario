@@ -5,11 +5,11 @@
   "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "init a basic project",
+      "title": "Init",
       "text": "step1.md"
     },
     {
-      "title": "Run a work on a dapp",
+      "title": "Submit",
       "text": "step2.md"
     }],
     "intro": {
