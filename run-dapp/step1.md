@@ -26,3 +26,6 @@ And get some money:
 `iexec wallet getETH`{{execute}}
 `iexec wallet getRLC`{{execute}}
 `iexec account login`{{execute}}
+`iexec wallet show`{{execute}}
+`iexec account allow 5`{{execute}}
+`iexec account show`{{execute}}
