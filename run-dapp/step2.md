@@ -10,7 +10,7 @@ Let's suppose you just copied the address of the factorial dapp from https://dap
 
 # Check the result
 Use the submission transaction hash to check the status of your work:
-`iexec result <submit_tx_Hash>`{{execute}}
+`iexec result <submit_tx_Hash> --dapp 0x31407014cd396e87c3938260C110A97450ab0b92`{{execute}}
 
 If it's completed, you can download the result by adding the --save flag:
-`iexec result <submit_tx_Hash> --save`{{execute}}
+`iexec result <submit_tx_Hash> --dapp 0x31407014cd396e87c3938260C110A97450ab0b92 --save`{{execute}}

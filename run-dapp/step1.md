@@ -20,12 +20,18 @@ Enter the project:
 
 `cd iexec-init`{{execute}}
 
-And get some money:
+# setup your wallet
 
 `iexec wallet create`{{execute}}
+
 `iexec wallet getETH`{{execute}}
+
 `iexec wallet getRLC`{{execute}}
+
 `iexec account login`{{execute}}
+
 `iexec wallet show`{{execute}}
+
 `iexec account allow 5`{{execute}}
+
 `iexec account show`{{execute}}
