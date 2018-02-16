@@ -3,10 +3,6 @@ You need to have [node.js](https://nodejs.org/en/) installed on your machine.
 
 `npm -g install iexec`{{execute}}
 
-Check iexec help:
-
-`iexec --help`{{execute}}
-
 Check iexec version:
 
 `iexec --version`{{execute}}
