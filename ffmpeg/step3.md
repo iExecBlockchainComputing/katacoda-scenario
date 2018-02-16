@@ -22,7 +22,7 @@ With the deploy command you will:
 To the following question:
 `? You are not logged in yet, log in?`
 
-Answer `Y`{{execute}} 
+Answer `Y`{{execute}}
 
 
 # Submit a task to encode your film on the iExec decentralized cloud !
@@ -69,7 +69,7 @@ Now just call iexec submit, it will submit you work with args present in iexec.j
 `iexec submit`{{execute}}
 
 
-# Get your ffmpeg task result 
+# Get your ffmpeg work result
 
 Use the txHash from the submit to check the result of your task with:
 
@@ -95,7 +95,13 @@ You must be able to see your new encoded video small.avi result!
   inflating: small.avi
 `
 
-The result retrieved is a zip file coming from a worker. 
+The result retrieved is a zip file coming from a worker.
 
 The zip contains all the files created or modified by the worker execution.
 
+# Don't waste money!
+Be nice and give back your RLC and ETH to the faucet by sweeping your wallet:
+
+`iexec sweep`{{execute}}
+
+Thank you!

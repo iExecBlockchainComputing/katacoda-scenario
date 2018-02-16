@@ -57,3 +57,10 @@ https://explorer.iex.ec in the "last submissions" tab.
 Your smart contract is now "offchain computing ready!".
 
 Sky is the limit for you and your smart contract!
+
+# Don't waste money!
+Be nice and give back your RLC and ETH to the faucet by sweeping your wallet:
+
+`iexec sweep`{{execute}}
+
+Thank you!
