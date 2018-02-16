@@ -15,14 +15,11 @@ Enter the project:
 
 Your iExec dapp is composed of:
 
-* an ```app``` directory:
-the off-chain app, which can be any kind of legacy application, either created by you or by someone else. The offchain app will be executed by the iExec decentralized cloud.
+* an ```app``` directory: In case you have a binary app, put it here. If you are already using Docker (and you should!) then this directory is not used.
 
-* a ```contracts``` directory:
-a smart contract that interfaces with your iExec dapp from Ethereum to the offchain app.
+* a ```contracts``` directory: A smart contract that interfaces with your iExec dapp from Ethereum to the offchain app.
 
-
-You will deploy those 2 parts in this tutorial: the ffmepg off-chain app to the iExec server, and the dapp smart contract to the Ethereum blockchain.
+* an ```iexec.js``` file: This is where you describe your project **name**, your **app**, and your **work**.
 
 # setup your wallet
 
