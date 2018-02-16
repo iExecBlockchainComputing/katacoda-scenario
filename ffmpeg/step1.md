@@ -11,7 +11,7 @@ Let's start your iExec project with the bare minimum:
 
 Rename and enter the project:
 
-`mv iexec-init iexec-ffmpeg && cd iexec-init`{{execute}}
+`mv iexec-init iexec-ffmpeg && cd iexec-ffmpeg`{{execute}}
 
 Your iExec dapp is composed of:
 
