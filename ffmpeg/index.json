@@ -1,19 +1,19 @@
 {
-  "title": "Create your dapp on iExec",
+  "title": "Create your own dapp on iExec",
   "description": "Ffmpeg walkthrough",
   "difficulty": "beginner",
   "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Initialized your project",
+      "title": "Init",
       "text": "step1.md"
     },
     {
-      "title": "Create your dapp",
+      "title": "Create",
       "text": "step2.md"
     },
     {
-      "title": "Deploy your dapp iExec network",
+      "title": "Submit",
       "text": "step3.md"
     }
     ]

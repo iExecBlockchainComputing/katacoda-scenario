@@ -30,25 +30,3 @@ Your iExec dapp is composed of:
 `iexec account login`{{execute}}
 
 `iexec wallet show`{{execute}}
-
-## Name your ffmpeg project
-
-Let's say you want to name your new project: **Ffmpeg**, here are the required steps:
-
-Rename **MyContract** to **Ffmpeg** in ```iexec.js```:
-
-`sed -i "s/.*name:.*/name:'Ffmpeg',/g" iexec.js`{{execute}}
-
-
-Rename the contract file ```MyContract.sol``` to ```Ffmpeg.sol```:
-
-`mv contracts/MyContract.sol  contracts/Ffmpeg.sol`{{execute}}
-
-
-Rename the contract name **MyContract** to **Ffmpeg** in ```Ffmpeg.sol```:
-
-`sed -i "s/MyContract/Ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
-
-Rename the **init** dapp name to **ffmpeg** in Ffmpeg.sol
-
-`sed -i "s/init/ffmpeg/g" contracts/Ffmpeg.sol`{{execute}}
