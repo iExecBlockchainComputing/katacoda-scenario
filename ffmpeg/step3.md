@@ -40,6 +40,6 @@ The zip contains all the files created or modified by the worker execution.
 # Don't waste money!
 Be nice and give back your RLC and ETH to the faucet by sweeping your wallet:
 
-`iexec sweep`{{execute}}
+`iexec wallet sweep`{{execute}}
 
 Thank you!

@@ -18,6 +18,6 @@ If it's completed, you can download the result by adding the --save flag:
 # Don't waste money!
 Be nice and give back your RLC and ETH to the faucet by sweeping your wallet:
 
-`iexec sweep`{{execute}}
+`iexec wallet sweep`{{execute}}
 
 Thank you!
