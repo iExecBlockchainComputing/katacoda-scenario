@@ -51,7 +51,7 @@ It may take a moment for the computation to be completed. Repeat the last comman
 When the computation is completed, RLC is tranfert to the Dapp Provider.
 As you play Dapp Provider role and also the Dapp User Role, you will have your RLC balance with the same balance as when you start.
 
-You can also go to the iexec explorer to see your transaction :
+You can also go to the iExec explorer to see your transaction :
 https://explorer.iex.ec in the "last submissions" tab.
 
 Your smart contract is now "offchain computing ready!".

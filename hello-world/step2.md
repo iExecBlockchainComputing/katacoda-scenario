@@ -22,7 +22,7 @@ As soon as your ETH balances are positive, you can deploy your Dapp.
 
 # Understanding the Dapp contract
 
-The contract Factorial.sol interfaces the off-chain application with Ethereum. It extends the IexecOracleAPI smart contract.
+The contract ```Factorial.sol``` interfaces the off-chain application with Ethereum. It extends the IexecOracleAPI smart contract.
 
 Dapp Provider can set the DAPP_PRICE that a user will have to pay in RLC for the usage.
 
@@ -60,8 +60,8 @@ You can test it before deploying it on iexec network.
 
 With the deploy command you will :
 - Deploy the Dapp smart contract into Ethereum.
-- Login to iexec network thanks to your ethereum addresss and obtain an access token.
-- Deploy the factorial binary app in iexec network thanks to your access token.
+- Login to iExec server thanks to your ethereum address and obtain an access token.
+- Deploy the factorial binary app to iExec server thanks to your access token.
 
 `iexec deploy`{{execute}}
 
@@ -69,15 +69,14 @@ With the deploy command you will :
 To the following question:
 `? You are not logged in yet, log in?`
 
-Answer `Y`{{execute}} 
+Answer `Y`{{execute}}
 
 
-You can see your new deployed dapp in  :
+You can see your new deployed dapp at
 https://explorer.iex.ec in the "last dapp registrations" tab.
 
 
 As a Dapp Provider your work is finished :
-Your App is registered on iexec network and link to your ethereum Dapp address. 
+Your App is registered on iExec network and link to your Ethereum Dapp address.
 This App (binary) will be run by workers thanks to transactions sent to your Dapp (smart contract).
 We will see that on the next page of this tutorial.
- 
