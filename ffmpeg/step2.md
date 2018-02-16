@@ -1,33 +1,28 @@
+# Define your application
+As the Ffmpeg application [already has a Docker image](https://hub.docker.com/r/jrottenberg/ffmpeg/), this step is super easy: Simply rename the docker image name in the ```iexec.js``` to the one you want:
 
-As an example, let's take the ffmpeg tool to illustrate that you can use an already existing application, or build a new one and monitize it in RLC tokens on the iExec network.
+`sed -i "s/docker-image-name/jrottenberg\/ffmpeg:scratch/g" iexec.js`{{execute}}
 
-# Prepare your ffmpeg binary app
 
-Let's take the static build version of ffmpeg from: https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz.
-
-The uncompressed version is on the ffmpeg branch of iexec-dapp-samples.
-
-Let's download it to the apps directory:
-  
-`cd apps`{{execute}}
-
-`curl -o Ffmpeg -L https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-dapp-samples/ffmpeg/apps/Ffmpeg && chmod +x Ffmpeg`{{execute}}
-
-  
-# Test your ffmpeg before deployment
+# Test your application
+Before deploying to iExec, we need to make sure our applications is working properly, locally.
 
 First, let's download a movie sample to encode:
 
-
- `curl -OL http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
-
+`curl -OL http://techslides.com/demos/sample-videos/small.mp4`{{execute}}
 
 You can then test locally the Ffmpeg binary with the following command:
 
- `./Ffmpeg -i small.mp4 small.avi`{{execute}}
- 
-Your result small.avi must be present in the apps directory.
+`docker run --rm  -v $(pwd):/iexec-project -w /iexec-project jrottenberg/ffmpeg:scratch -i small.mp4 small.avi`{{execute}}
 
-Kindly go back to the main directory for the next step:
+You should have a new ```small.avi``` file.
 
- `cd ..`{{execute}}
+We are now confident that our app is working fine locally, and so we can deploy it to iExec.
+
+
+# Deploy your application
+This step will do 2 things:
+1. deploy the smart contract on Ethereum blockchain
+2. deploy the application description to iExec server
+
+`iexec deploy`{{execute}}

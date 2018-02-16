@@ -1,7 +1,5 @@
-# Create and run your custom application on iExec
+# Craft and run your own custom iExec application
 
-If you are not yet familiar with the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) basics, kindly go through the [Hello World tutorial](https://www.katacoda.com/sulliwane/scenarios/hello-world) first.
-
-In this tutorial, we will explain you how to craft your own iExec dapp,
+In this tutorial, we will explain you how to craft an run your own iExec dapp, using the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk)
 
 Ready? Let's go!

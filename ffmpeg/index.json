@@ -31,6 +31,6 @@
     "hidefinish": false
   },
   "backend": {
-    "imageid": "node6"
+    "imageid": "docker"
   }
 }

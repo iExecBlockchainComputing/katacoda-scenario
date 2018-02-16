@@ -1,6 +1,6 @@
 # Congratulations, you've successfully made it through this tutorial!
 
-You are now able to submit works on any dapp from the [iExec Dapp Store](https://dapps.iex.ec).
+Now you know how to submit works on any dapp from the [iExec Dapp Store](https://dapps.iex.ec).
 
 In case you want to submit more complicated arguments than a simple number to the dapp (ie: when using blender for example) you should write them in the ```iexec.js``` file, [here is an example](https://github.com/iExecBlockchainComputing/iexec-dapp-samples/blob/blender/iexec.js).
 
