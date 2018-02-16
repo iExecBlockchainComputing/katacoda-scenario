@@ -1,9 +1,7 @@
+# Create and run your custom application on iExec
 
- # Create and run your custom application on iExec
- 
- If you are not yet familiar with the iExec SDK basics, kindly go through this scenario first:
- https://www.katacoda.com/sulliwane/scenarios/hello-world
+If you are not yet familiar with the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) basics, kindly go through the [Hello World tutorial](https://www.katacoda.com/sulliwane/scenarios/hello-world) first.
 
- Now in the present tutorial, we will guide you in deploying your own app idea on the iExec network. We will take the ffmpeg app as an example.
+In this tutorial, we will explain you how to craft your own iExec dapp,
 
- Ready? Let's go!
+Ready? Let's go!
