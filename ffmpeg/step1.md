@@ -6,7 +6,12 @@ Let's install the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-
 # Init a base project
 
 Let's start your iExec project with the bare minimum:
+
 `iexec init`{{execute}}
+
+Enter the project:
+
+`cd iexec-init`{{execute}}
 
 Your iExec dapp is composed of:
 

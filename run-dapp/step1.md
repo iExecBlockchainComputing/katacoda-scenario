@@ -14,6 +14,7 @@ Check iexec version:
 # Init a basic project
 
 Let's start with the bare minimum to be able to submit any job on any dapp from iExec Dapp Store:
+
 `iexec init`{{execute}}
 
 Enter the project:
