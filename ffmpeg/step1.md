@@ -9,9 +9,9 @@ Let's start your iExec project with the bare minimum:
 
 `iexec init`{{execute}}
 
-Enter the project:
+Rename and enter the project:
 
-`cd iexec-init`{{execute}}
+`mv iexec-init iexec-ffmpeg && cd iexec-init`{{execute}}
 
 Your iExec dapp is composed of:
 
@@ -33,22 +33,7 @@ Your iExec dapp is composed of:
 
 ## Name your ffmpeg project
 
-A new directory iexec-init has been created.
-
-Let's rename it:
-
-`mv iexec-init iexec-ffmpeg`{{execute}}
-
-Now go into the created directory:
-
-`cd iexec-ffmpeg`{{execute}}
-
-
-In ```iexec.js```, the field name must be the same for :
-  - the name of your dapp smart contract in the contract directory
-  - the name of your binary in apps 'Ffmpeg'
-
-Let's choose the following name: **Ffmpeg**.
+Let's say you want to name your new project: **Ffmpeg**, here are the required steps:
 
 Rename **MyContract** to **Ffmpeg** in ```iexec.js```:
 
