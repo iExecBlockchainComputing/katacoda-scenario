@@ -1,9 +1,7 @@
 # Pre-requisites
-You have two options to install the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk), [Nodejs]((https://nodejs.org/en/)) or [Docker](https://www.docker.com/). Let's use Docker:
+Let's install the [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) using Nodejs:
 
-`echo 'alias iexec="docker run --interactive --tty --rm -v $(pwd):/iexec-project -w /iexec-project iexechub/iexec-sdk"'  >> ~/.bashrc && source ~/.bashrc`{{execute}}
-
-`iexec --version`{{execute}}
+`npm -g install iexec`{{execute}}
 
 # Init a base project
 

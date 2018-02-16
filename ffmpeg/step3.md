@@ -2,20 +2,19 @@
 Before submitting a work, we need to define it in the ```iexec.js``` file.
 
 Here are the parameters that will describe our work:
-- cmdline: ffmpeg cli arguments.
-- dirinuri: The worker will download this URI before executing the app (this points to the video in this case).
+- ```cmdline```: ffmpeg cli arguments.
+- ```dirinuri```: The worker will download this URI before executing the app (this points to the video in this case).
 
 Let's add them to ```iexec.js```:
 
 `sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:'http:\/\/techslides.com\/demos\/sample-videos\/small.mp4',/g" iexec.js`{{execute}}
 
-Now just call iexec submit, it will submit you work as described in the ```iexec.js```:
+Now just submit the work to iExec:
 
 `iexec submit`{{execute}}
 
 
 # Get your ffmpeg work result
-
 Check the progress of the work by running:
 
 `iexec result <tx_hash>`{{execute}}
