@@ -7,7 +7,7 @@ Here are the parameters that will describe our work:
 
 Let's add them to ```iexec.js```:
 
-`sed -i "s/.*cmdline:.*/cmdline:'-i small.mp4 small.avi', dirinuri:'http:\/\/techslides.com\/demos\/sample-videos\/small.mp4',/g" iexec.js`{{execute}}
+`sed -i "s/.*cmdline:.*/cmdline:'-i /iexec/small.mp4 /iexec/small.avi', dirinuri:'http:\/\/techslides.com\/demos\/sample-videos\/small.mp4',/g" iexec.js`{{execute}}
 
 Now just submit the work to iExec:
 
