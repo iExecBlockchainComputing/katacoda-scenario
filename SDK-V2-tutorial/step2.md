@@ -8,7 +8,7 @@ Now let's check if you have already deployed apps:
 
 Let's initialize an app:
 
-`iexec app count`{{execute}}
+`iexec app init`{{execute}}
 
 Now go ahead and edit `iexec.json` file to customize your app, especially you should set the:
 
