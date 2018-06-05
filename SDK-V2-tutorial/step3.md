@@ -21,3 +21,11 @@ let's watch progress of the submitted work, and download its result when complet
 `iexec work show --watch --download`{{execute}}
 
 Congrats! You just bought a work execution at the best price from the iExec Marketplace, and downloaded the result.
+
+# Don't waste money!
+
+Before closing your browser window, be nice and give back your RLC and ETH to iExec Faucet by sweeping your wallet:
+
+`iexec wallet sweep --to 0xc3fb2431042fbdde67b8356abcabbc5c14660849`{{execute}}
+
+Thank you!
