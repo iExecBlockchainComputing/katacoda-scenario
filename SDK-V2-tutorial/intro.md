@@ -1,4 +1,4 @@
-# iExec V1 Tutorial : Install and run your first Dapp
+# iExec SDK V2 Tutorial
 
 iExec allows Ethereum developers to create applications that can be executed off-chain. The [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) brings all the tools to develop, deploy and execute Dapps on Ethereum and iExec. Using these tools, you will be able to deploy any legacy applications in the iExec infrastructure and execute them through calls to Ethereum smart contracts.
 
