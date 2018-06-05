@@ -1,24 +1,28 @@
 {
-  "title": "iExec Hello World",
-  "description": "Your First iExec DAPP",
+  "title": "iExec SDK V2 tutorial",
+  "description": "A complete walkthrough the iExec SDK V2",
   "difficulty": "beginner",
   "time": "5 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Install iexec",
-      "text": "step1.md"
-    }, {
-      "title": "Step 2 - Deploy your Dapp",
-      "text": "step2.md"
-    }, {
-      "title": "Step 3 - Execute off-chain computations",
-      "text": "step3.md"
-    }]
-    ,"intro": {
+    "steps": [
+      {
+        "title": "Step 1 - Install iexec and init your project",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Deploy your app",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Buy & Run work order using Marketplace",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
       "text": "intro.md"
     },
     "finish": {
-	"text": "finish.md"
+      "text": "finish.md"
     }
   },
   "environment": {
